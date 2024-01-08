@@ -1,6 +1,8 @@
 # Pick-A-Ride
 
-## Tech Stack (A ride sharing platform)
+#### A ride sharing application built for MoveInSync Case Study.
+
+## Tech Stack
 
 ### Listed below are the technologies used in this project, along with their purpose.
 
