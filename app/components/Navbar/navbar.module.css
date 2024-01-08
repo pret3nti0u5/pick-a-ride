@@ -1,0 +1,33 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem;
+  justify-content: flex-end;
+}
+
+.link {
+  color: #fff;
+  font-size: clamp(0.8rem, 1.5vw, 1.2rem);
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.prev {
+  color: #fff;
+  font-size: clamp(0.8rem, 1.5vw, 1.2rem);
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-right: 1rem;
+}
+
+.link > li {
+  background: #000;
+  padding: 0.35rem 0.75rem;
+  border-radius: 0.5rem;
+}
+
+.link_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

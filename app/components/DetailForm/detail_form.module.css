@@ -1,0 +1,183 @@
+
+.ride_container {
+  background-color: #fff;
+  width: 50vw;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+  border: 3px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.6);
+}
+
+.ride_type {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 0.5rem;
+  border: 3px solid #000;
+  position: relative;
+  bottom: 2.25rem;
+  background-color: #fff;
+  box-shadow: 0 0.5rem 0.25rem rgba(0, 0, 0, 0.6);
+  width: fit-content;
+}
+
+.ride_type_title {
+  font-size: clamp(1rem, 1.5vw, 1.5rem);
+  font-weight: 800;
+  text-transform: uppercase;
+  border-radius: 0.5rem;
+  padding: 0.5rem 3rem;
+}
+
+.ride_type_title:hover {
+  cursor: pointer;
+  background-color: #e2e2e2;
+}
+
+.ride_form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: fit-content;
+}
+
+.ride_add_form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: fit-content;
+  margin-top: 1rem;
+  width: 60%;
+}
+
+.search_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ride_location_container {
+  flex: 1;
+  position: relative;
+}
+
+.ride_location_container > input {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border: 1px solid #000;
+  font-size: clamp(1rem, 1.5vw, 1.25rem);
+  font-weight: 500;
+}
+
+.ride_location_container > input:focus {
+  outline: none;
+}
+
+.ride_location_from {
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  border-right: none !important;
+}
+
+.ride_location_to {
+  border-right: none !important;
+}
+
+.ride_location_date {
+  border-right: none !important;
+}
+
+.ride_location_passengers {
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.ride_location_contact {
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.ride_location_contact::-webkit-outer-spin-button,
+.ride_location_contact::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.ride_location_contact {
+  -moz-appearance: textfield;
+}
+
+.search_button_text {
+  font-size: clamp(1rem, 1.5vw, 1.5rem);
+  font-weight: 500;
+  border-radius: 2rem;
+  padding: 0.5rem 2rem;
+  color: #fff;
+  background-color: #272727;
+  position: relative;
+  top: 2.25rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.6);
+  border: 1px solid #fff;
+  z-index: 1;
+}
+
+.search_button_text:hover {
+  cursor: pointer;
+  background-color: #ff5568;
+  color: #fff;
+}
+
+.ride_half {
+  flex: 0.5;
+  position: relative;
+}
+
+.ride_location_options {
+  position: absolute;
+  background-color: #fff;
+  width: 100%;
+  border-radius: 0.5rem;
+  border: 1px solid #000;
+  margin-top: 0.25rem;
+  padding: 1rem 0;
+  z-index: 2;
+}
+
+.ride_location_option {
+  font-size: clamp(1rem, 1.5vw, 1.25rem);
+  cursor: pointer;
+  font-weight: 500;
+  padding: 0.25rem 1rem;
+}
+
+.ride_location_option:hover {
+  background-color: #e2e2e2;
+}
+
+.ride_selected {
+  background-color: #000;
+  color: #fff;
+  border-radius: 0rem;
+}
+
+.ride_selected:hover {
+  background-color: #000;
+}
+
+.ride_error {
+  display: flex;
+  width: 100%;
+}
+
+.ride_error_text {
+  font-size: clamp(0.75rem, 1.5vw, 1rem);
+  color: red;
+  font-weight: 400;
+  margin-top: 0.5rem;
+  margin-bottom: -1.5rem;
+}
