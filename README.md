@@ -1,6 +1,8 @@
 # Pick-A-Ride
 
 #### A ride sharing application built for MoveInSync Case Study.
+<div align="center"><img src="https://github.com/pret3nti0u5/pick-a-ride/assets/57453561/99df386a-8f8e-47ec-afa8-eca50ff0e6ad" alt="Screenshot home of project home page" width="1008" /></div>
+<br/>
 
 ## Tech Stack
 
